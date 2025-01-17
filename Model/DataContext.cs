@@ -8,4 +8,6 @@ public class DataContext : DbContext
     { }
 
     public DbSet<Test>? Tests { get; set; }
+    public DbSet<Speaker>? Speakers { get; set; }
+    public DbSet<Event>? Events { get; set; }
 }
